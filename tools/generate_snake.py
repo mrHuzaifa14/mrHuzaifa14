@@ -86,8 +86,8 @@ def main():
         for day_idx, ch in enumerate(col):
             if ch == "1":
                 dt = date_for_cell(start_date, week_idx, day_idx)
-                msg = f"contrib: snake {week_idx}-{day_idx} ({dt.date()})"
-                print("Creating commit for", dt.date())
+                msg = f"contrib: snake {week_idx}-{day_idx} ({dt})"
+                print("Creating commit for", dt)
                 make_commit_on(dt, msg)
 
     print("All commits created.")
