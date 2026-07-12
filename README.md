@@ -37,8 +37,15 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 <p align="center">
   <img src="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.gif" alt="Snake animation" />
 </p>
+ 
+**Enable the contribution-snake commits**
 
----
+- Add repository secrets: `SNAKE_NAME` (your Git name) and `SNAKE_EMAIL` (an email associated with your GitHub account). Optionally add `SNAKE_START_DATE` (YYYY-MM-DD) to set the first Sunday's date for the pattern.
+- The workflow is at [.github/workflows/snake.yml](.github/workflows/snake.yml). Trigger it from the Actions tab or let it run weekly.
+- Edit `snake_pattern.txt` to change the snake shape. Each line is a week (7 chars for Sun..Sat) where `1` creates a commit on that day.
+
+Once the workflow runs, it will create dated empty commits which will appear on your GitHub contributions graph according to the pattern.
+
 
 ## 💻 Tech Stack
 

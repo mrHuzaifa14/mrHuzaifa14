@@ -1,3 +1,38 @@
+name: Contribution Snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run snake generator
+        env:
+          SNAKE_NAME: ${{ secrets.SNAKE_NAME }}
+          SNAKE_EMAIL: ${{ secrets.SNAKE_EMAIL }}
+          START_DATE: ${{ secrets.SNAKE_START_DATE }}
+        run: |
+          python tools/generate_snake.py
+
+      - name: Push commits
+        run: |
+          BRANCH=${GITHUB_REF#refs/heads/}
+          git push origin HEAD:$BRANCH
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 name: Generate Snake
 
 on:
