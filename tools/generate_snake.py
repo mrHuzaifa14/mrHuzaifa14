@@ -41,7 +41,8 @@ def ensure_git_config(name, email):
 
 
 def make_commit_on(date, message):
-    iso = date.strftime("%Y-%m-%dT12:00:00")
+    # use noon UTC to avoid timezone issues
+    iso = date.strftime("%Y-%m-%dT12:00:00+00:00")
     env = os.environ.copy()
     env["GIT_AUTHOR_DATE"] = iso
     env["GIT_COMMITTER_DATE"] = iso
@@ -55,19 +56,23 @@ def main():
         print("No pattern found in", PATTERN_FILE)
         return
 
-    # Determine start date: either user-provided START_DATE or 52 weeks back Sunday
+    # Determine start date: either user-provided START_DATE or computed so the
+    # pattern fits inside the last 52 weeks (GitHub year view).
     start_date_str = os.environ.get("START_DATE")
     if start_date_str:
-        start_date = datetime.strptime(start_date_str, "%Y-%m-%d")
-        # normalize to Sunday
-        start_date -= timedelta(days=start_date.weekday() + 1) if start_date.weekday() != 6 else timedelta(0)
+        start_date = datetime.strptime(start_date_str, "%Y-%m-%d").date()
     else:
         today = datetime.utcnow().date()
-        # go back number of weeks equal to pattern length
         weeks = len(pattern)
-        start_date = datetime.combine(today - timedelta(weeks=weeks), datetime.min.time())
-        # shift to nearest previous Sunday
-        start_date -= timedelta(days=start_date.weekday() + 1) if start_date.weekday() != 6 else timedelta(0)
+        # Trim pattern to maximum 52 weeks to stay inside GitHub contribution year
+        if weeks > 52:
+            print(f"Pattern has {weeks} weeks; trimming to last 52 weeks.")
+            pattern = pattern[-52:]
+            weeks = 52
+        # compute the Sunday of (today - (weeks-1) weeks)
+        start_candidate = today - timedelta(weeks=weeks - 1)
+        # find the previous (or same) Sunday
+        start_date = start_candidate - timedelta(days=(start_candidate.weekday() + 1) % 7)
 
     name = os.environ.get("SNAKE_NAME") or os.environ.get("GITHUB_ACTOR") or "github-actions"
     email = os.environ.get("SNAKE_EMAIL") or f"{os.environ.get('GITHUB_ACTOR','actions')}@users.noreply.github.com"
