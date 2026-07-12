@@ -32,6 +32,16 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 
 ---
 
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</picture>
+
+---
+
 ## 💻 Tech Stack
 
 **Frontend**
@@ -62,25 +72,11 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=mrHuzaifa14&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=mrHuzaifa14&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" />
 
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=mrHuzaifa14&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img height="180" src="https://streak-stats.demolab.com/?user=mrHuzaifa14&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrHuzaifa14&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.svg" alt="Snake animation eating contribution graph" />
-</picture>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrHuzaifa14&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" alt="Top Languages" />
 
 </div>
 
