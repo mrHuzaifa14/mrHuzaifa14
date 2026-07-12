@@ -34,11 +34,9 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 
 ## 🐍 Contribution Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</picture>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.gif" alt="Snake animation" />
+</p>
 
 ---
 
