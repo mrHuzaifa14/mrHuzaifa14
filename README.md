@@ -75,11 +75,12 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=mrHuzaifa14&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" />
+<!-- Stats cards auto-update daily via .github/workflows/stats.yml -->
+<img height="180" src="./profile/stats.svg" alt="GitHub Stats" />
 
 <img height="180" src="https://streak-stats.demolab.com/?user=mrHuzaifa14&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrHuzaifa14&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" alt="Top Languages" />
+<img height="180" src="./profile/top-langs.svg" alt="Top Languages" />
 
 </div>
 
@@ -89,7 +90,7 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=mrHuzaifa14&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
+<img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=mrHuzaifa14&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
 
 </div>
 
