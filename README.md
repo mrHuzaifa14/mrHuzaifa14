@@ -33,17 +33,13 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 ---
 
 ## 🐍 Contribution Snake
+
+<!-- Snake auto-updates daily via .github/workflows/snake.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="./profile/github-contribution-grid-snake.svg">
 </picture>
-
-**Run the official workflow**
-
-- The Platane `snk` Action is configured in [.github/workflows/snake.yml](.github/workflows/snake.yml). It generates the SVG/GIF and publishes them to the `output` branch via GitHub Pages.
-- Push your changes and run the workflow from the Actions tab: Actions → Generate Snake → Run workflow. After a successful run the `output` branch will contain the generated images and the README images will load from there.
-
 
 ## 💻 Tech Stack
 
