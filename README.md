@@ -34,12 +34,14 @@ I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (Mo
 
 ## 🐍 Contribution Snake
 
-<!-- Snake auto-updates daily via .github/workflows/snake.yml -->
+<!-- GIF animates reliably on GitHub; auto-updates via .github/workflows/snake.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="./profile/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.gif">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/mrHuzaifa14/mrHuzaifa14/output/github-contribution-grid-snake.gif">
 </picture>
+
+---
 
 ## 💻 Tech Stack
 
