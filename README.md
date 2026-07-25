@@ -1,117 +1,48 @@
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Huzaifa+Asghar+%F0%9F%91%8B;Full+Stack+MERN+Developer;Building+Scalable+Web+Applications;Open+to+Full-Time+%26+Internship+Opportunities)](https://git.io/typing-svg)
-
-[![GitHub followers](https://img.shields.io/github/followers/mrHuzaifa14?style=for-the-badge&logo=github&color=181717)](https://github.com/mrHuzaifa14)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrHuzaifa14)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrHuzaifa14@users.noreply.github.com)
-
-</div>
+<h1 align="center">Huzaifa Asghar</h1>
+<p align="center">Full Stack MERN Developer · Karachi, Pakistan</p>
+<p align="center">
+  <a href="https://github.com/mrHuzaifa14">GitHub</a> ·
+  <a href="https://linkedin.com/in/mrHuzaifa14">LinkedIn</a> ·
+  <a href="mailto:huzaifaasgharr@gmail.com">Email</a>
+</p>
 
 ---
 
-## 🚀 About Me
+### About
 
-```javascript
-const huzaifa = {
-  role: "Full Stack MERN Developer",
-  education: "Final Year BSCS @ Hamdard University",
-  location: "Karachi, Pakistan",
-  company: "@GutMapDx-Codebase",
-  focus: ["Scalable Web Apps", "AI-Powered Health Tech", "MERN Stack"],
-  currentlyLearning: ["Cloud Architecture", "Advanced React Patterns", "AI Integration"],
-  openTo: ["Full-Time Roles", "Internships", "Collaboration"],
-};
-```
+Final year **BSCS** student at Hamdard University. I build scalable web apps with the **MERN stack** — from e-commerce platforms and LMS products to APIs and dashboards.
 
-I'm a passionate **Full Stack Developer** specializing in the **MERN stack** (MongoDB, Express.js, React, Node.js). I enjoy turning complex problems into clean, scalable solutions — from e-commerce platforms and learning management systems to backend APIs and real-time dashboards.
-
-💼 **Open to Full-Time & Internship Opportunities**  
-🌱 **Currently exploring:** AI integration, cloud architecture, and advanced React patterns  
-⚡ **Fun fact:** I love building projects that look great and work even better under the hood.
+Currently at **@GutMapDx-Codebase**. Open to full-time roles and internships.
 
 ---
 
-## 💻 Tech Stack
+### Stack
 
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+`React` `Node.js` `Express` `MongoDB` `Firebase` `JavaScript` `Tailwind CSS`
 
 ---
 
-## 📊 GitHub Stats
+### Stats
 
-<div align="center">
-
-<!-- Stats cards auto-update daily via .github/workflows/stats.yml -->
-<img height="180" src="./profile/stats.svg" alt="GitHub Stats" />
-
-<img height="180" src="https://streak-stats.demolab.com/?user=mrHuzaifa14&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-<img height="180" src="./profile/top-langs.svg" alt="Top Languages" />
-
-</div>
+<p align="center">
+  <img height="160" src="./profile/stats.svg" alt="GitHub Stats" />
+  <img height="160" src="https://streak-stats.demolab.com/?user=mrHuzaifa14&theme=gray&hide_border=true" alt="GitHub Streak" />
+  <img height="160" src="./profile/top-langs.svg" alt="Top Languages" />
+</p>
 
 ---
 
-## 🏆 GitHub Trophies
+### Projects
 
-<div align="center">
-
-<img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=mrHuzaifa14&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
-
-</div>
-
----
-
-## ⭐ Featured Projects
-
-| Project | Description | Tech Stack | Link |
-| --- | --- | --- | --- |
-| **Learning Management System** | Full LMS with Firebase authentication and database integration | React, Firebase | [Source](https://github.com/mrHuzaifa14/Learning-Management-System) |
-| **E-Commerce Website** | Modern e-commerce storefront built with React | React, JSX, CSS | [Source](https://github.com/mrHuzaifa14/Ecommerce-Website) |
-| **Hotel Management System** | Hotel operations and management web application | React, JavaScript | [Source](https://github.com/mrHuzaifa14/HotelManagmentSystem) |
-| **Backend Practice** | Backend API project with Node.js fundamentals | Node.js, JavaScript | [Source](https://github.com/mrHuzaifa14/backendpractic) |
-| **Admin Dashboard** | Dashboard with nested routing and modular layout | React, React Router | [Source](https://github.com/mrHuzaifa14/DashBoard) |
-| **Firebase Authentication** | Auth flows with Firebase for secure login/signup | React, Firebase | [Source](https://github.com/mrHuzaifa14/Firebase-Authentication) |
+| | |
+| :--- | :--- |
+| [Learning Management System](https://github.com/mrHuzaifa14/Learning-Management-System) | React, Firebase |
+| [E-Commerce Website](https://github.com/mrHuzaifa14/Ecommerce-Website) | React, CSS |
+| [Hotel Management System](https://github.com/mrHuzaifa14/HotelManagmentSystem) | React, JavaScript |
+| [Admin Dashboard](https://github.com/mrHuzaifa14/DashBoard) | React, React Router |
+| [Firebase Authentication](https://github.com/mrHuzaifa14/Firebase-Authentication) | React, Firebase |
+| [Backend Practice](https://github.com/mrHuzaifa14/backendpractic) | Node.js |
 
 ---
 
-## 📫 Connect With Me
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrHuzaifa14)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrHuzaifa14)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrHuzaifa14@users.noreply.github.com)
-
-</div>
-
----
-
-<div align="center">
-
-⭐️ From [mrHuzaifa14](https://github.com/mrHuzaifa14)
-
-<img src="https://komarev.com/ghpvc/?username=mrHuzaifa14&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-
-</div>
+<p align="center"><sub>open to work · building things that ship</sub></p>
